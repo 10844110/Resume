@@ -1,0 +1,83 @@
+h2.title3{
+    position: absolute;
+margin-left: 20px;
+font-size: 30px;
+top:1890px ;
+  }
+  .allcollect{
+      position: absolute;
+      top: -10px;
+      left: 3px;
+
+  }
+  .story5{
+      position: absolute;
+      left: 120px;
+      top: 2000px;
+  }
+  .story6{
+    position: absolute;
+    left: 370px;
+    top: 2000px;
+}
+.story7{
+    position: absolute;
+    left: 618px;
+    top: 2000px;
+}
+.story8{
+    position: absolute;
+    left: 868px;
+    top: 2000px;
+}
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  .column5 {
+    width: 290%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+  }
+  
+  @media screen and (max-width: 650px) {
+    .column5 {
+      width: 100%;
+      display: block;
+    }
+  }
+  
+  .card5 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+  .container5 {
+    padding: 0 16px;
+  }
+  
+  .container5::after, .row5::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .title {
+    color: grey;
+  }
+  
+  .button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 3px;
+    color: gold;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .button:hover {
+    background-color: #555;
+  }
+  

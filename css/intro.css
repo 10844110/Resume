@@ -1,0 +1,182 @@
+#container {
+        margin-top: 80px;
+        margin-bottom:80px;
+        margin-left: 120px;
+        margin-right: 120px;
+          }
+h1.resume{
+    margin-left: 365px;
+    margin-right: 120px;
+    color: #F5FFFA;
+    text-shadow: 5px 5px 8px yellow;
+    font-weight: 1000;
+    font-variant: small-caps;
+    font-size: 50px;
+}
+ img.paper1{
+    border-radius: 12px;
+    position: absolute;
+    top: 100px;
+    z-index:-1;
+ }
+ img.paper2{
+    border-radius: 12px;
+    position: absolute;
+    top: 150px;
+    left:180px ;
+    z-index:-2;
+ }
+ img.mebg{
+    margin-left: -80px;
+    margin-top: -180px;
+ }
+img.me{
+    border-radius: 50%;
+    position: absolute;
+    margin-left: -330px;
+    margin-top: -48px;
+    z-index:2;
+}
+h2.nam{
+    margin-left: 120px;
+    position: absolute;
+    top:330px ;
+    font-size: 50px;
+}
+h2.intro{
+    position: absolute;
+    top:75px ;
+    margin-left: 400px;
+    font-size: 30px;
+}
+h3.inform{
+    position: absolute;
+    top:110px ;
+    margin-left: 520px;
+    font-size: 25px;
+}
+img.fb{
+    position: absolute;
+    top:320px ;
+    margin-left: 400px;
+}
+img.ig{
+    position: absolute;
+    top:320px ;
+    margin-left: 550px;
+}
+img.github{
+    position: absolute;
+    top:320px ;
+    margin-left: 700px;
+}
+img.google{
+    position: absolute;
+    top:320px ;
+    margin-left: 850px;
+}
+h1.wor{
+    position: absolute;
+    top:420px ;
+    margin-left: 220px;
+    color: darkred;
+    text-shadow: 5px 5px 8px lightskyblue;
+    z-index:2;
+}
+img.worr{
+    position: absolute;
+    top:420px ;
+}
+
+img.fb:hover {
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+  }
+  img.ig:hover {
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+  }
+  img.github:hover {
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+  }
+  img.google:hover {
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+
+ .gototop{
+     position: fixed;
+     left: 91.5%;
+     bottom: 35px;
+     width: 100%;
+     cursor: pointer;
+     z-index: 5;
+ }
+ p.p9{
+     position: absolute;
+     top: 2467px;
+    margin-left: 267px;
+    margin-right: 120px;
+    color: #F5FFFA;
+    text-shadow: 5px 5px 8px yellow;
+    font-weight: 1000;
+    font-variant: small-caps;
+    font-size: 35px;
+ }
+ img.bgimg1{
+    position: absolute;
+    top: 1825px;
+    margin-left: -7px;
+    z-index: -1;
+ }
+ img.bgimg2{
+    position: absolute;
+    top: 1875px;
+    margin-left: 42px;
+    z-index: -1;
+ }
+ img.bgimg3{
+    position: absolute;
+    top: 1200px;
+    margin-left: 500px;
+    z-index: -1;
+ }
+ img.bgimg4{
+    position: absolute;
+    top: 60px;
+    margin-left: 670px;
+    z-index: -1;
+ }
+ img.bgimg5{
+    position: absolute;
+    top: 530px;
+    margin-left: 790px;
+    z-index: -1;
+ }
+ img.bgimg6{
+    position: absolute;
+    top:847px;
+    margin-left: 0px;
+    z-index: -1;
+ }
+ img.bgimg7{
+    position: absolute;
+    top:1158px;
+    margin-left: 326px;
+    z-index: -1;
+ }
