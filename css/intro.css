@@ -129,7 +129,7 @@ img.fb:hover {
  }
  p.p9{
      position: absolute;
-     top: 2467px;
+     top: 2917px;
     margin-left: 267px;
     margin-right: 120px;
     color: #F5FFFA;
@@ -152,7 +152,7 @@ img.fb:hover {
  }
  img.bgimg3{
     position: absolute;
-    top: 1200px;
+    top: 1458px;
     margin-left: 500px;
     z-index: -1;
  }
@@ -180,3 +180,46 @@ img.fb:hover {
     margin-left: 326px;
     z-index: -1;
  }
+ img.worr2{
+    position: absolute;
+    top:1731px;
+    margin-left: 0px;
+    z-index: -1;
+ }
+ img.thx1{
+    position: absolute;
+    top:2497px;
+    margin-left: 70px;
+    z-index: 0;
+ }
+ img.thx2{
+    position: absolute;
+    top:2497px;
+    margin-left: 370px;
+    z-index: 0;
+ }
+ img.thx3{
+    position: absolute;
+    top:2497px;
+    margin-left: 672px;
+    z-index: 0;
+ }
+
+ img.thx1{
+     overflow:hidden;}
+ img.thx1{transform:scale(1,1);transition: all 1s ease-out;}
+ 
+ img.thx1:hover{
+     transform:scale(1.2,1.2);}
+     img.thx2{
+        overflow:hidden;}
+    img.thx2{transform:scale(1,1);transition: all 1s ease-out;}
+    
+    img.thx2:hover{
+        transform:scale(1.2,1.2);}
+        img.thx3{
+            overflow:hidden;}
+        img.thx3{transform:scale(1,1);transition: all 1s ease-out;}
+        
+        img.thx3:hover{
+            transform:scale(1.2,1.2);}
